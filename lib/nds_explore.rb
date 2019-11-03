@@ -8,5 +8,9 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  directors_database.each do ||
+  directors_database.each do |director|
+    director[:name] == "Stephen Spielberg"
+    pp 
+  end
+
 end
