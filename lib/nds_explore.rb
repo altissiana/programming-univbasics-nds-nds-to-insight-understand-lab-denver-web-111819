@@ -11,7 +11,7 @@ def print_first_directors_movie_titles
   pp directors_database
   directors_database.each do |director|
     if director[:name] == "Stephen Spielberg"
-      movies.each do |movie|
+      director.each do |movie|
         print movie[:title]
       end
     end
